@@ -2,7 +2,7 @@
 // Account class that contains a name instance variable and
 // methods to set and get its value.
 
-public class Account { 
+public class Account301 { 
 	private String name; // instance variable
 	
 	// method to set the name in the object
