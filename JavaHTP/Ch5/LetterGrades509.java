@@ -1,4 +1,4 @@
-// April 22 2022
+// April 22 2022 
 // LetterGrades class uses the switch statement to count letter grades.
 
 import java.util.Scanner;
@@ -29,7 +29,7 @@ public class LetterGrades509 {
 			
 			// increment appropriate letter-grade counter
 			switch (grade / 10) {
-				case 0: // grade was between 90
+				case 9: // grade was between 90
 				case 10: // and 100, inclusive
 					++aCount;
 					break; // exits switch
@@ -57,10 +57,10 @@ public class LetterGrades509 {
 			double average = (double) total / gradeCounter;
 			
 			// output summary of results
-			System.out.printf("Total of the %d grades entered is %d%n"),
+			System.out.printf("Total of the %d grades entered is %d%n",
 				gradeCounter, total);
 			System.out.printf("Class average is %.2f%n", average);
-			System.out.printf("%n%s%n%s%d%n%s%d%n%s%d%n%s%d%n%s%d%n"),
+			System.out.printf("%n%s%n%s%d%n%s%d%n%s%d%n%s%d%n%s%d%n",
 				"Number of students who received each grade:", 
 				"A: ", aCount, // display number of A grades
 				"B: ", bCount, // display number of B grades
