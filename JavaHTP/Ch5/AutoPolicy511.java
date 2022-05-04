@@ -9,7 +9,7 @@ public class AutoPolicy511 {
 	private String state; // to-letter state abbreviation
 	
 	//constructor
-	public AutoPolicy(int accountNumber, String makeAndModel, String state) {
+	public AutoPolicy511(int accountNumber, String makeAndModel, String state) {
 		this.accountNumber = accountNumber;
 		this.makeAndModel = makeAndModel;
 		this.state = state;
@@ -17,7 +17,7 @@ public class AutoPolicy511 {
 	
 	// sets the accountNumber
 	public void setAccountNumber(int accountNumber) {
-		this.accountNumber;
+		this.accountNumber = accountNumber;
 	}
 	
 	// returns the accountNumber
