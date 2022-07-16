@@ -5,7 +5,7 @@ import java.security.SecureRandom; // program uses class SecureRandom
 
 public class Scope {
 	// filed that is accessible to all methods of this class
-	private static int x = 1;
+	private static int x = 1; // private static integer 
 	
 	// method main creates and initializes local variable x
 	// and calls methods useLocalVariable and useField
