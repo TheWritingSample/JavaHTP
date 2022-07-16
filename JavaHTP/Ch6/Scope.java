@@ -1,4 +1,4 @@
-// June 23 2022  
+// June 23 2022   
 // Scope class demonstrates field and local-variable scopes.
 
 import java.security.SecureRandom; // program uses class SecureRandom
