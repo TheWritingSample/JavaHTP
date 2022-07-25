@@ -16,6 +16,6 @@ public class Welcome207 {
 		
 		int sum = number1 + number2; // add numbers, then store total in sum
 		
-		System.out.printf("Sum is %d%n", sum); // display sum
+		System.out.printf("Sum is %d%n:", sum); // display sum
 	} // end method main
 }; // end class Welcome
