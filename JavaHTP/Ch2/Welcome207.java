@@ -15,7 +15,9 @@ public class Welcome207 {
 		int number2 = input.nextInt(); // read second number from user
 		
 		int sum = number1 + number2; // add numbers, then store total in sum
+		int product = number1 * number2; // multiply numbers, then store total in product
 		
 		System.out.printf("Sum is %d%n:", sum); // display sum
+		System.out.printf("Product is %d%n:", product); // display sum
 	} // end method main
 }; // end class Welcome
