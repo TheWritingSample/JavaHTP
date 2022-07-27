@@ -20,7 +20,7 @@ public class Welcome207 {
 		
 		System.out.printf("Sum is %d%n:", sum); // display sum
 		System.out.printf("Product is %d%n:", product); // display product
-		System.out.printf("Difference is %d%n:", difference); // display difference
+		System.out.printf("Difference is %d%n:", difference); //  display difference
 		
 	} // end method main
 }; // end class Welcome
