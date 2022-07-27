@@ -16,7 +16,7 @@ public class Welcome215 {
 		int number2 = input.nextInt(); // read second number from user
 		
 		if (number1 == number2) { // equal
-			System.out.printf("%d == %d%n", number1, number2);
+			System.out.printf("%d == %d%n", number1, number2); 
 		}
 		
 		if (number1 != number2) { // not equal
