@@ -16,8 +16,11 @@ public class Welcome207 {
 		
 		int sum = number1 + number2; // add numbers, then store total in sum
 		int product = number1 * number2; // multiply numbers, then store total in product
+		int difference = number1 - number2; // subtract numbers, then store the total in difference
 		
 		System.out.printf("Sum is %d%n:", sum); // display sum
-		System.out.printf("Product is %d%n:", product); // display sum
+		System.out.printf("Product is %d%n:", product); // display product
+		System.out.printf("Difference is %d%n:", difference); // display difference
+		
 	} // end method main
 }; // end class Welcome
