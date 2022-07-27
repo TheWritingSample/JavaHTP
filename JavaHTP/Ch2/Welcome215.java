@@ -15,27 +15,27 @@ public class Welcome215 {
 		System.out.print("Enter second integer: "); // prompt
 		int number2 = input.nextInt(); // read second number from user
 		
-		if (number1 == number2) {
+		if (number1 == number2) { // equal
 			System.out.printf("%d == %d%n", number1, number2);
 		}
 		
-		if (number1 != number2) {
+		if (number1 != number2) { // not equal
 			System.out.printf("%d != %d%n", number1, number2);
 		}
 		
-		if (number1 < number2) {
+		if (number1 < number2) { // less than
 			System.out.printf("%d < %d%n", number1, number2);
 		}
 		
-		if (number1 > number2) {
+		if (number1 > number2) { // greater than
 			System.out.printf("%d > %d%n", number1, number2);
 		}
 		
-		if (number1 <= number2) {
+		if (number1 <= number2) { // less than or equal
 			System.out.printf("%d <= %d%n", number1, number2);
 		}
 		
-		if (number1 >= number2) {
+		if (number1 >= number2) { // greater than or equal
 			System.out.printf("%d => %d%n", number1, number2);
 		}
 		
