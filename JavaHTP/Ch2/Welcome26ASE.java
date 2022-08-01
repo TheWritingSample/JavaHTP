@@ -19,7 +19,7 @@ public class Welcome26ASE {
 		
 		int total = t1 + t2 + t3; // calculate total
 		
-		System.out.printf("Total marks: %d%n", total);
+		System.out.printf("Total marks for three tests: %d%n", total);
 		
 	} // end method main
 }; // end class 
