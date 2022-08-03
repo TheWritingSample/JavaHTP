@@ -19,7 +19,7 @@ public class AccountTest309 {
 		
 		System.out.print("Enter deposit amount for account1: ");; // prompt
 		double depositAmount = input.nextDouble(); // obtain user input
-		System.out.printf("%nadding %.2f to account1 balance%n%n", depositAmount);
+		System.out.printf("%nDeposit %.2f into account1%n%n", depositAmount);
 		account1.deposit(depositAmount); // add to account1's balance
 		
 		// display balances
@@ -28,7 +28,7 @@ public class AccountTest309 {
 		
 		System.out.print("Enter deposit amount for account2: "); // prompt
 		depositAmount = input.nextDouble(); // obtain user input
-		System.out.printf("%nadding %.2f to account2 balance%n%n", depositAmount);
+		System.out.printf("%nDeposit %.2f into account2%n%n", depositAmount);
 		account2.deposit(depositAmount); // add to account2's balance
 		
 		// display balances
