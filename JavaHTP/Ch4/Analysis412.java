@@ -1,5 +1,6 @@
-// April 14 2022
+// April 14 2022 
 // Analysis of examination results using nested control statements
+// Can I make this to do levels of pass or fail?
 
 import java.util.Scanner; // class uses class Scanner
 
