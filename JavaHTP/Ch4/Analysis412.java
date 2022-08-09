@@ -39,7 +39,7 @@ public class Analysis412 {
 		
 		// determine whether more than 8 students passed
 		if (passes > 8) {
-			System.out.println("Bonus to instructor!");
+			System.out.println("Bonus to instructor for doing the job!");
 		}
 	}
 
