@@ -18,12 +18,12 @@ public class Student404 {
 		}
 	}
 	
-	// sets the Student's name
+	// method sets the Student's name
 	public void setName(String name) {
 		this.name = name;
 	}
 	
-	// retrieves the Student's name
+	// method retrieves the Student's name
 	public String getName() {
 		return name;
 	}
